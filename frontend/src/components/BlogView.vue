@@ -2,11 +2,14 @@
   <v-container class="fill-height mainContainer" fluid>
     <v-row no-gutters>
       <v-col md="6">
-        <v-img :src="require('@/assets/welcome.30b63204.png')" />
+        <v-img
+          class="fill-height"
+          :src="require('@/assets/welcome.30b63204.png')"
+        />
       </v-col>
       <v-col md="6">
         <base-buble1 style="transform: rotate(180deg) translateY(25%)" />
-        <v-container class="mt-n10">
+        <v-container>
           <span class="text-h2">My Blog</span>
           <v-container class="pa-10">
             <p class="font-weight-light text-justify">
